@@ -36,9 +36,10 @@ namespace Metotlar
             sepetManager.Ekle(urun2);
 
             //bad use
-            sepetManager.Ekle2("Armut", "Yeşil Armut", 12, 10);
-            sepetManager.Ekle2("Elma", "Yeşil Elma", 12, 9);
-            sepetManager.Ekle2("Karpuz", "Diyarbakır Karpuzu", 12, 8);
+            //sepetManager.Ekle2("Armut", "Yeşil Armut", 12, 10);
+            //sepetManager.Ekle2("Elma", "Yeşil Elma", 12, 9);
+            //sepetManager.Ekle2("Karpuz", "Diyarbakır Karpuzu", 12, 8);
         }
     }
+
 }
