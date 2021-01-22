@@ -7,6 +7,7 @@ namespace GenericsIntro
     class MyList<T>
     {
         T[] items;
+        T[] tempArray;
 
         //constructor
         public MyList()
@@ -15,7 +16,7 @@ namespace GenericsIntro
         }
         public void Add(T item)
         {
-            T[] tempArray = items;
+            tempArray = items;
             items = new T[items.Length+1];
             for (int i = 0; i < tempArray.Length; i++)
             {
@@ -25,5 +26,16 @@ namespace GenericsIntro
             items[items.Length - 1] = item;
 
         }
+
+        public int Count 
+        { 
+            get{ return items.Length; } 
+        }
+
+        public T[] IndexofArray
+        {
+            get { return items; }
+        }
+
     }
 }
