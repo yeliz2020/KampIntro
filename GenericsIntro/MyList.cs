@@ -32,7 +32,7 @@ namespace GenericsIntro
             get{ return items.Length; } 
         }
 
-        public T[] IndexofArray
+        public T[] Items
         {
             get { return items; }
         }

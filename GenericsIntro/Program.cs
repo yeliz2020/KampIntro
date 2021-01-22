@@ -10,8 +10,14 @@ namespace GenericsIntro
         {
             MyList<string> isimler = new MyList<string>();
             isimler.Add("Yeliz");
-            
-            Console.WriteLine(isimler.IndexofArray[0]);
+            isimler.Add("Selma");
+
+            for (int i = 0; i < isimler.Count; i++)
+            {
+                Console.WriteLine(isimler.Items[i]);
+            }
+
+            Console.WriteLine();
 
 
             List<string> liste = new List<string>();
